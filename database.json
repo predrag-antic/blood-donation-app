@@ -1,0 +1,36 @@
+{
+    "requests" : [
+        {
+            "id": 1,
+            "location": "Hospital Berlin",
+            "bloodGroup": ["A+","AB-"],
+            "urgency": "Medium",
+            "numOfPeople": 3,
+            "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+        },
+        {
+            "id": 2,
+            "location": "Hospital Amsterdam",
+            "bloodGroup": ["O+"],
+            "urgency": "Critical",
+            "numOfPeople": 6,
+            "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+        },
+        {
+            "id": 3,
+            "location": "Central Hospital Paris",
+            "bloodGroup": ["B+","O-","AB-"],
+            "urgency": "Low",
+            "numOfPeople": 21,
+            "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+        },
+        {
+            "id": 4,
+            "location": "Clinique center Vienna",
+            "bloodGroup": ["A+"],
+            "urgency": "High",
+            "numOfPeople": 2,
+            "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+        }
+    ]
+}
