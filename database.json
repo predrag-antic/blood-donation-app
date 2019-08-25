@@ -1,36 +1,124 @@
 {
-    "requests" : [
-        {
-            "id": 1,
-            "location": "Hospital Berlin",
-            "bloodGroup": ["A+","AB-"],
-            "urgency": "Medium",
-            "numOfPeople": 3,
-            "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
-        },
-        {
-            "id": 2,
-            "location": "Hospital Amsterdam",
-            "bloodGroup": ["O+"],
-            "urgency": "Critical",
-            "numOfPeople": 6,
-            "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
-        },
-        {
-            "id": 3,
-            "location": "Central Hospital Paris",
-            "bloodGroup": ["B+","O-","AB-"],
-            "urgency": "Low",
-            "numOfPeople": 21,
-            "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
-        },
-        {
-            "id": 4,
-            "location": "Clinique center Vienna",
-            "bloodGroup": ["A+"],
-            "urgency": "High",
-            "numOfPeople": 2,
-            "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
-        }
-    ]
+  "requests": [
+    {
+      "id": 1,
+      "location": "Hospital Berlin",
+      "bloodGroup": [
+        "A+",
+        "AB-"
+      ],
+      "urgency": "Medium",
+      "numOfPeople": 3,
+      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+    },
+    {
+      "id": 2,
+      "location": "Hospital Amsterdam",
+      "bloodGroup": [
+        "0+"
+      ],
+      "urgency": "Critical",
+      "numOfPeople": 8,
+      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+    },
+    {
+      "id": 3,
+      "location": "Central Hospital Paris",
+      "bloodGroup": [
+        "B+",
+        "O-",
+        "AB-"
+      ],
+      "urgency": "Low",
+      "numOfPeople": 13,
+      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+    },
+    {
+      "id": 4,
+      "location": "Clinique center Vienna",
+      "bloodGroup": [
+        "A+"
+      ],
+      "urgency": "High",
+      "numOfPeople": 5,
+      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+    },
+    {
+      "id": 5,
+      "location": "Central Hospital Belgrade",
+      "bloodGroup": [
+        "B-"
+      ],
+      "urgency": "High",
+      "numOfPeople": 3,
+      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+    },
+    {
+      "id": 6,
+      "location": "Klinicki centar Nis",
+      "bloodGroup": [
+        "A+",
+        "AB+",
+        "0+"
+      ],
+      "urgency": "Low",
+      "numOfPeople": 7,
+      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+    },
+    {
+      "id": 7,
+      "location": "Hospital \"Navares\" Barcelona",
+      "bloodGroup": [
+        "B+",
+        "0+"
+      ],
+      "urgency": "Medium",
+      "numOfPeople": 6,
+      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "heading": "Anim labore eiusmod do do ex nostrud 1",
+      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "type": "FAQ",
+      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+    },
+    {
+      "id": 2,
+      "heading": "Anim labore eiusmod do do ex nostrud 2",
+      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "type": "Event",
+      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+    },
+    {
+      "id": 3,
+      "heading": "Anim labore eiusmod do do ex nostrud 3",
+      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "type": "News",
+      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+    },
+    {
+      "id": 4,
+      "heading": "Anim labore eiusmod do do ex nostrud 4",
+      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "type": "FAQ",
+      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+    },
+    {
+      "id": 5,
+      "heading": "Anim labore eiusmod do do ex nostrud 5",
+      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "type": "Event",
+      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+    },
+    {
+      "id": 6,
+      "heading": "Anim labore eiusmod do do ex nostrud 6",
+      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "type": "News",
+      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+    }
+  ]
 }

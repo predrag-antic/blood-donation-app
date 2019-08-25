@@ -9,7 +9,6 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem, 
-    Button
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
@@ -18,23 +17,20 @@ class NavBar extends React.Component{
     render() {
         return(
             <div>
-                <Navbar color="light" light expand="xs">
-                <NavbarBrand tag={Link} to="/home">AppName</NavbarBrand>
+                <Navbar color="light" light expand="xs" fixed="top">
+                <NavbarBrand tag={Link} to="/home"><b>B</b>loo<b>D</b>onor</NavbarBrand>
                     <Nav className="ml-auto" navbar>
-                    <NavItem>
-                        <NavLink tag={Link} to="/top-donations">Top donators</NavLink>
-                    </NavItem>
                     <NavItem>
                         <NavLink tag={Link} to="/blog">Blog</NavLink>
                     </NavItem>
-                    <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav >
-                            <img src="https://www.pinclipart.com/picdir/middle/181-1814767_person-svg-png-icon-free-download-profile-icon.png" style={{height:"30px",width:"30px"}} />
-                        </DropdownToggle>
-                        <DropdownMenu right>
-                        <DropdownItem>
-                            <NavLink tag={Link} to="/profile" style={{textDecoration:"none", color:"black", fontSize:"16px"}}>Profile</NavLink>
-                        </DropdownItem>
+                    {/* <UncontrolledDropdown nav inNavbar> }
+                        { <DropdownToggle nav > */}
+                        <NavLink tag={Link} to="/profile" style={{textDecoration:"none", color:"black", fontSize:"16px"}}><img src="https://www.pinclipart.com/picdir/middle/181-1814767_person-svg-png-icon-free-download-profile-icon.png" style={{height:"30px",width:"30px"}} /></NavLink>
+                        {/* </DropdownToggle>
+                        { {<DropdownMenu right> }
+                            {<NavLink tag={Link} to="/profile" style={{textDecoration:"none", color:"black", fontSize:"16px"}}>Profile</NavLink> }
+                         
+                        { </DropdownItem>
                         <DropdownItem>
                             Option 2
                         </DropdownItem>
@@ -43,7 +39,7 @@ class NavBar extends React.Component{
                             Logout
                         </DropdownItem>
                         </DropdownMenu>
-                    </UncontrolledDropdown>
+                    </UncontrolledDropdown> */}
                     </Nav>
                 </Navbar>
             </div>

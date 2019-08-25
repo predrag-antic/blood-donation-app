@@ -1,7 +1,7 @@
 export interface Donation {
-    id: string;
+    id: number;
     location: string;
-    bloodGroup: string;
+    bloodGroup: string[];
     urgency: string;
     numOfPeople: number;
     info: string;

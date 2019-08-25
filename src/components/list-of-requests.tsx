@@ -1,74 +1,64 @@
-import React from 'react';
+import React, { Dispatch } from 'react';
 import { Donation } from '../models/donation';
+import { connect } from 'react-redux';
+import { Action } from 'redux';
+import { updateDonationRequest,deleteDonationRequest } from '../store/actions/requests-actions';
+import { RootState } from '../store/reducers/root-reducer';
 
 interface Props{
     requests: Donation[]
+    updateDonationRequest: Function
+    deleteDonationRequest: Function
 }
 
 interface State{
 
 }
 
+
+
 class ListOfRequests extends React.Component<Props,State> {
+    
+    willDonate = (request:Donation) => {
+        if(request.numOfPeople>0){
+            request.numOfPeople -= 1;
+            this.props.updateDonationRequest(request);
+        }
+        else
+        {
+            this.props.deleteDonationRequest(request.id);
+        }
+            
+    }
+
     render(){
         
         return(
             <div className="container">
                 {
                     this.props.requests
-                    // .sort((a,b) => (a.urgency > b.urgency)?1:(a.urgency===b.urgency)?((a.numOfPeople>b.numOfPeople)?1:-1):-1)
-                    .sort((a,b) => a.urgency==='Critical'? 1 : a.urgency==='High'? 1 : a.urgency==='Medium'? 1: a.urgency==="Low"?1 : -1)
+                    .sort((a,b) => (a.urgency > b.urgency)?1:(a.urgency===b.urgency)?((a.numOfPeople<b.numOfPeople)?1:-1):-1)
                     .map((request: Donation)=> (
-                        <div >
+                        <div key={request.id}>
                             {
-                            request.urgency==='Low' &&
-                            <div key={request.id} className="card border-secondary mb-3 px-3 py-2">
-                                <div className="card-header">{request.location}</div>
+                            <div className={request.urgency==='Low'?
+                            'card border-secondary mb-3 px-3 py-2': request.urgency==='Medium'?
+                            'card border-info mb-3 px-3 py-2': request.urgency==='High'?
+                            'card border-warning mb-3 px-3 py-2':'card border-danger mb-3 px-3 py-2'}>
+                                <div className="card-header"><div style={{fontWeight: 'bold', fontSize:'20px'}}>{request.location}<div className="btn btn-secondary float-right"><a target='_blank' rel='noopener noreferrer' style={{textDecoration:"none",color:'white'}} href={`https://www.google.com/maps/place/${request.location}`}>Show</a></div></div></div>
                                     <div className="card-body text-secondary">
-                                        <p className='card-text'>Blood groups need: <strong>{request.bloodGroup}</strong></p>
+                                        <p className='card-text'>Required blood group(s): <strong>{request.bloodGroup}</strong></p>
                                         <p className="card-text">{request.info}</p>
-                                        <p className="card-text">Number of people need: <strong>{request.numOfPeople}</strong></p>
+                                        <p className="card-text">People needed: <strong>{request.numOfPeople}</strong></p>
                                         <p className="card-text">Urgency: <strong>{request.urgency}</strong></p>
+                                    </div>
+                                    <hr></hr>
+                                    <div style={{textAlign:'center'}}>
+                                    <button className="btn btn-danger mb-2 ml-2" title="Only push button if you are sure thay you ll donate" style={{width:"150px", alignSelf:'center'}} onClick={()=>this.willDonate(request)}>I Will Donate</button>
                                     </div>
                             </div>
                             }
-                            {
-                            request.urgency==='Medium' &&
-                            <div key={request.id} className="card border-info mb-3 px-3 py-2">
-                                <div className="card-header">{request.location}</div>
-                                    <div className="card-body text-secondary">
-                                        <p className='card-text'>Blood groups need: <strong>{request.bloodGroup}</strong></p>
-                                        <p className="card-text">{request.info}</p>
-                                        <p className="card-text">Number of people need: <strong>{request.numOfPeople}</strong></p>
-                                        <p className="card-text">Urgency: <strong>{request.urgency}</strong></p>
-                                    </div>
-                            </div>
-                            }
-                            {
-                            request.urgency==='High' &&
-                            <div key={request.id} className="card border-warning mb-3 px-3 py-2">
-                                <div className="card-header">{request.location}</div>
-                                    <div className="card-body text-secondary">
-                                        <p className='card-text'>Blood groups need: <strong>{request.bloodGroup}</strong></p>
-                                        <p className="card-text">{request.info}</p>
-                                        <p className="card-text">Number of people need: <strong>{request.numOfPeople}</strong></p>
-                                        <p className="card-text">Urgency: <strong>{request.urgency}</strong></p>
-                                    </div>
-                            </div>
-                            }
-                            {
-                            request.urgency==='Critical' &&
-                            <div key={request.id} className="card border-danger mb-3 px-3 py-2">
-                                <div className="card-header">{request.location}</div>
-                                    <div className="card-body text-secondary">
-                                        <p className='card-text'>Blood groups need: <strong>{request.bloodGroup}</strong></p>
-                                        <p className="card-text">{request.info}</p>
-                                        <p className="card-text">Number of people need: <strong>{request.numOfPeople}</strong></p>
-                                        <p className="card-text">Urgency: <strong>{request.urgency}</strong></p>
-                                    </div>
-                            </div>
-                            }
-                            
+  
                         </div>
                     )
                     )
@@ -79,4 +69,18 @@ class ListOfRequests extends React.Component<Props,State> {
 
 }
 
-export default ListOfRequests;
+function mapDispatchToProps(dispatch:Dispatch<Action>){
+    return{
+        updateDonationRequest:(request:Donation)=>dispatch(updateDonationRequest(request)),
+        deleteDonationRequest:(requestId: number)=>dispatch(deleteDonationRequest(requestId))
+    }
+}
+
+function mapStateToProps(state: RootState){
+    return{
+        requests: state.requests
+    }
+}
+
+
+export default connect(mapStateToProps,mapDispatchToProps)(ListOfRequests);
