@@ -2,55 +2,56 @@
   "requests": [
     {
       "id": 1,
-      "location": "Hospital Berlin",
+      "location": "Opsta Bolnica Beograd",
       "bloodGroup": [
         "A+",
         "AB-"
       ],
       "urgency": "Medium",
-      "numOfPeople": 3,
-      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+      "numOfPeople": 5,
+      "info": "Quis magna eiusmod laboris reprehenderit velit sunt quis ut quis ad eu exercitation. Lorem exercitation consequat officia dolor officia dolore laborum mollit qui sit aute. Velit est ad laborum labore irure aliquip enim ea. Sint eu est officia ea qui. Duis consequat esse et adipisicing."
     },
     {
       "id": 2,
-      "location": "Hospital Amsterdam",
+      "location": "Bolnica 'Dr. Dragise Misovica' Cacak",
       "bloodGroup": [
-        "0+"
+        "0+",
+        "AB-"
       ],
       "urgency": "Critical",
-      "numOfPeople": 8,
-      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+      "numOfPeople": 11,
+      "info": "Incididunt esse pariatur commodo dolor nostrud incididunt sunt velit cupidatat consectetur ullamco est. Est nisi officia id aliquip ad ullamco ad exercitation. Consectetur ullamco aute aliquip aute mollit cupidatat laboris sint minim. Ea culpa amet excepteur laborum sunt. Ex culpa pariatur elit quis nostrud cillum. Occaecat ullamco sit veniam exercitation nulla."
     },
     {
       "id": 3,
-      "location": "Central Hospital Paris",
+      "location": "Klinicki centar Vojvodine - Novi Sad",
       "bloodGroup": [
         "B+",
         "O-",
         "AB-"
       ],
       "urgency": "Low",
-      "numOfPeople": 13,
-      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+      "numOfPeople": 5,
+      "info": "Qui consectetur proident officia tempor nisi Lorem qui irure. Fugiat culpa sit eu est est. Irure do ipsum pariatur laborum aliqua amet officia deserunt. Cillum elit ea sit sunt ad."
     },
     {
       "id": 4,
-      "location": "Clinique center Vienna",
+      "location": "Gradska bolnica Krusevac",
       "bloodGroup": [
         "A+"
       ],
       "urgency": "High",
       "numOfPeople": 5,
-      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+      "info": "Minim nulla elit enim dolore tempor magna. Non irure in ea velit exercitation ipsum laborum adipisicing minim officia. Commodo laborum laboris aliquip ad. Minim anim officia exercitation aliqua qui laborum deserunt. Deserunt fugiat pariatur irure reprehenderit. Consectetur eu voluptate non nulla mollit cillum est et."
     },
     {
       "id": 5,
-      "location": "Central Hospital Belgrade",
+      "location": "Bolnica Izvorska Subotica",
       "bloodGroup": [
         "B-"
       ],
       "urgency": "High",
-      "numOfPeople": 3,
+      "numOfPeople": 18,
       "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
     },
     {
@@ -62,12 +63,12 @@
         "0+"
       ],
       "urgency": "Low",
-      "numOfPeople": 7,
-      "info": "Tempor cupidatat velit enim dolor Lorem eu est esse enim commodo deserunt consectetur exercitation reprehenderit."
+      "numOfPeople": 6,
+      "info": "Voluptate sit in veniam eu eiusmod labore pariatur deserunt consequat excepteur. Dolor qui pariatur eiusmod ad. Sit pariatur voluptate velit eu eu anim enim ipsum aute eiusmod proident veniam voluptate eiusmod. Sint eiusmod velit eu officia laboris laboris minim labore labore ullamco.."
     },
     {
       "id": 7,
-      "location": "Hospital \"Navares\" Barcelona",
+      "location": "Bolnica 'Jovana Ducica' Valjevo",
       "bloodGroup": [
         "B+",
         "0+"
@@ -80,45 +81,55 @@
   "blog": [
     {
       "id": 1,
-      "heading": "Anim labore eiusmod do do ex nostrud 1",
+      "heading": "Informacije o postupku davanja krvi",
       "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
       "type": "FAQ",
-      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+      "info": "Eko-postupak od donora davatelja do odlaska iz usluge traje oko 30 minuta, a sastoji se od: popunjavanja Upitnika za donora, registracije, određivanja nivoa hemoglobina, ljekarskog pregleda, davanja krvi iz vene u lakatnom zavoju i posluživanja obroka zahvale.Podaci o postupku davanja krvi sažeti su u tiskanom Vodiču za davanje krvi koji je svaki davatelj dao po dolasku.Vodič dobavljača: 1.Molimo ispunite upitnik2.Podnesite upitnik službenoj osobi koja radi na registraciji donatora 3.Medicinski tehničar će odrediti nivo hemoglobina iz kapi krvi uzete iz vašeg prsta4.Vaš ljekar će vas pregledati i odlučiti ćete li danas dati krv 5.Uz jednokratni set medicinski tehničar će uzeti krv6.Nakon davanja krvi, ostanite s nama još deset minuta i uživajte u obroku Dana zahvalnosti7.Ne uklanjajte zavoj na lakatnom zavoju sljedeća dva sata 8.U interesu je vašeg zdravlja da ne palite cigaretu u naredna dva sata9.Ako mislite da vaša krv može biti štetna za pacijenta, od trenutka dolaska do odlaska u mjesto za prikupljanje krvi, možete obavijestiti one koji su odgovorni za to što ne koriste vašu krv.Vaša će krv biti korištena pravovremeno, što je izuzetno važno za zdravlje pacijenta koji će je primiti.Krv će se pregledati i za transmisivne i transfuzivne bolesti: AIDS, žuticu B i C i sifilis. Te su analize besplatne za vas i napravljene su od uzorka krvi svakog davatelja krvi nakon svakog davanja krvi. Prilikom popunjavanja Donora upitnika, koji se sastoji od niza pitanja na koja je potrebno iskreno odgovoriti, jer su u funkciji brige o zdravlju davatelja koji želi darivati ​​krv i pacijenta kojem će se ta krv dati s njegovim potpisom, davatelj potvrđuje da puna odgovornost stoji iza dobijenih odgovora. Davanje krvi ne bi trebalo da odražava samo želju da se pomogne drugima, već i da bude svjestan potencijalnih rizika davanja davane krvi. Osoba koja želi dati krv kako bi pomogla drugima mora biti sigurna da ovaj čin neće ugroziti nikoga tko želi pomoći. Ta se sigurnost postiže edukacijom i samoisključivanjem u prisustvu rizičnih stanja i ponašanja, kao i iskrenim odgovorima na pitanja tijekom liječničkog pregleda."
     },
     {
       "id": 2,
-      "heading": "Anim labore eiusmod do do ex nostrud 2",
-      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "heading": "Dobrovoljna akcija davanja krvi na Kalemegdanu",
+      "picture": "http://www.nbti.org.rs/upload/images/zoom/tvrdjava_copy.jpg",
       "type": "Event",
-      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+      "info": "JP „Beogradska tvrđava“ u saradnji sa Institutom za transfuziju krvi Srbije će na Kalemegdanu organizovati akciju darivanja krvi!\nAkcija će se održati u subotu 31. avgusta 2019. godine u crvenom autobusu Instituta, na Kalemegdanu u Carigradu Carigrada, između 13 i 18 sati.\nSvaki dobrovoljni davalac krvi dobit će 4 karte od jednog od javnih ureda Beogradske tvrđave Javnog preduzeća 'Tvrđava Beograd': jedinstveni PARK ADVENTURE JURA, Vojni muzej Kazamate ili zajedničku kartu za 5 različitih predmeta. Ulaznice primljene tokom akcije mogu se otkupiti do kraja oktobra mesec.\n- Dino park namenjen je svim generacijama, posebno najmlađim posetiocima i njihovom uvođenju u svet nauke kroz igru. Više od 30 replika dinosaura, uključujući neke pokretne gmizavace iz pretpovijesnih zvukova. Replike su dostupne za istraživanje, fotografiju i obrazovanje mališana i odraslih.\n\n- Pokazaće svim humanim i plemenitim građanima tamnu stranu evropske istorije.\n- Konsolidovana ulaznica omogućava posetiocima nekoliko posetaobjekti - WATCH TOWER, ROMAN BUNAR, HEAVY TOWER, VELIKA BARRETNA SKLADIŠTA i VOJNI Bunker.\nJP „Beogradska tvrđava“ već nekoliko godina učestvuje u radu Zavoda za transfuziju krvi i doprinosi obezbeđivanju dovoljne količine krvi za lečenje pacijenata.\nOd posebne je važnosti kontinuirani dotok krvi tokom ljeta, koji je tradicionalno manjkav. Pozivamo građane da reaguju u što većem broju i pomognu u osiguranju stabilnih rezervi krvi.\nČekamo vas na Kalemegdanu, potražite crveni autobus za transfuziju Instituta.\n\nPomozite u osiguravanju stabilnih rezervi krvi tokom leta!"
     },
     {
       "id": 3,
-      "heading": "Anim labore eiusmod do do ex nostrud 3",
-      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "heading": "Voz udario automobil koji se provlačio između rampi",
+      "picture": "https://www.b92.net/news/pics/2019/06/19/5627647085d0a8d5e0442e547429415_v4_big.jpg",
       "type": "News",
-      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+      "info": "Leskovac -- Rano jutros na delu pruge od Leskovca do Đorđeva sudarili su se teretni voz prevoznika 'Srbija Kargo' i automobil. Do sudara je došlo kada se automobil provlačio između spuštenih polubranika. Vozač, koji je odgovoran za sudar, je povredjen, navodi se u saopštenju 'Infrastrukture železnice Srbije'. Sudar se dogodio na putnom prelazu obezbeđenim polubranicima. O nesreći su odmah obavešteni MUP i Hitna pomoć koji su izašli na lice mesta, kao Komisija za vanredne događaje."
     },
     {
       "id": 4,
-      "heading": "Anim labore eiusmod do do ex nostrud 4",
+      "heading": "O krvnim grupama",
       "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
       "type": "FAQ",
-      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+      "info": "Krvne grupe su genetski određene biološke karakteristike koje se nasljeđuju po određenim zakonima i nepromjenjive su tokom života.\nDo sada je identificirano više od 600 eritrocitnih antigena koji su razvrstani u preko 30 krvnih grupa, među kojima je najvažniji sustav krvnih grupa ABO. U ovom sistemu postoje 4 krvne grupe (A, B, AB i O). Učestalost krvnih grupa varira unutar određene populacije, tako da je najzastupljenija krvna grupa O u bijeloj populaciji. Krvna grupa A najzastupljenija je u našoj populaciji.Slijedi po važnosti Rh sistem krvne grupe koji ima opisano više antigena, ali najvažniji antigen je označen s D, tako da ljudi ovisno o tome je li taj antigen prisutan na eritrocitima ili ne, dijele se na RhD + i RhD-. U našoj populaciji, 85% jedinki je RhD +, a 15% je RhD-.Određivanje ABO i RhD krvne grupe osnovni je preduvjet za sigurno davanje krvi i krvnih komponenti. Svaka davana krvna jedinica testira se i utvrđuje krvna grupa ABO i Rh sistema, kao i postojanje nepravilnih antitijela na eritrocite.Kada se vrši prelijevanje krvi, uvijek je potrebno davati kompatibilnu krv pacijentu, međutim, O RhD-osobe se smatraju općim davateljem, a AB RhD + općim primaocima."
     },
     {
       "id": 5,
-      "heading": "Anim labore eiusmod do do ex nostrud 5",
-      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "heading": "Zvezda obara jos jedan rekord",
+      "picture": "http://www.nbti.org.rs/upload/images/zoom/68612822_2465404790147181_4660572676220256256_n.jpg",
       "type": "Event",
-      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+      "info": "Zvezda obara još jedan rekord! Pod sloganom Crveno bela krv, osamnaesti put za redom, održaće se akcija davanja krvi 24. i 25. avgusta na stadionu 'Rajko Mitić' od 10 do 18h. Za sve davaoce krvi Fudbalski klub pripremio je iznenađenje. Do sada je u akcijama koje su organizovali navijači i uprava sportskog kluba Crvena Zvezda prikupljeno 5777 jedinica krvi. Najveća akcija davanja krvi svih vremena, koju su organizovale Delije, održana je pre dve godine, kada je prikupljeno 1226 jedica krvi. Akciji će se priključiti proslavljeni sportisiti i javne ličnosti iz sveta sporta i kulture, vodjeni željom da pomognu našim najugroženijim sugradjanima, koji će svojim primerom da ukažu na potrebu za dobrovoljnim davanjem krvi Pozivamo sve gradjane, navijače i ljubitelje sportskog drustva Crvena Zvezda, da se priključe akcji i davanjem krvi pokažu solidarnost i plemenitost."
     },
     {
       "id": 6,
-      "heading": "Anim labore eiusmod do do ex nostrud 6",
-      "picture": "http://wpuploads.appadvice.com/wp-content/uploads/2015/04/news.jpg",
+      "heading": "Za vozača koji je vozio 257 km na čas zatvor",
+      "picture": "https://www.b92.net/news/pics/2019/08/19/16237945195d5a4e0f12cdc241926420_v4_big.jpg",
       "type": "News",
-      "info": "Irure est cillum et sunt veniam officia ex eiusmod consectetur officia aliqua dolore. Voluptate quis adipisicing sunt consequat. Excepteur commodo officia quis ut amet deserunt voluptate aliquip excepteur id. Deserunt esse officia quis voluptate irure non ad irure. Consequat minim dolor nostrud et voluptate irure cillum eiusmod id cillum laborum do esse. Exercitation amet ut laborum sint laborum deserunt exercitation deserunt. In nostrud sint aute enim. Magna officia qui velit proident labore dolor fugiat. Cupidatat anim nulla voluptate laboris minim qui commodo sunt. Excepteur ipsum nulla deserunt ullamco nisi incididunt sunt fugiat sunt culpa laboris cillum Lorem nostrud. Incididunt ad culpa qui enim. Enim laboris ad sit minim adipisicing et. Est amet eiusmod officia qui. Nisi non ex sit labore."
+      "info": "Beograd -- U 22.000 saobraćajnih nezgoda u ovoj godini poginulo je 310 ljudi, a 1.800 ima teške povrede. 14 odsto vozača učesnika u saobraćajnim nesrećama bilo je pijano. Novi Zakon o obaveznom osiguranju u saobraćaju o kome će se raspravljati na jesen, predviđa da ti vozači plate odštetu i do dva i po miliona evra. Najčešći uzroci teških saobraćajnih nesreća sa nastradalima je i prevelika brzina, korišćenje mobilnih telefona u toku vožnje i nevezivanje pojaseva, naročito na zadnjim sedištima, navodi RTS. Aleksandar Radenković, iz Uprave saobraćajne policije Ministarstva unutrašnjih poslova je gostujući u Jutarnjem programu RTS-a naveo da je tokom akcije pojačane kontrole saobraćaja bilo oko 25.000 prekršaja prekoračenja brzine, od kojih su neki vozači vozili preko 200 kilometara na sat. 'Tokom akcije kontrole saobraćaja imali smo oko 25.000 prekršaja prekoračenja brzine, od toga je 20.000 sankcionisano na licu mesta, a 5.000 vlasnika vozila može očekivati poziv u narednih nekoliko dana, kako bi se izjasnili ko je u trenutku prekršaja upravljao vozilom', navodi Radenković. Dodaje da se, pored brzine, kontrolisalo da li vozač i putnici koriste sigurnosni pojas."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Predrag Antic",
+      "gender": "male",
+      "age": "22",
+      "bloodGroup": "A+",
+      "donations": 3
     }
   ]
 }

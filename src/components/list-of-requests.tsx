@@ -4,11 +4,15 @@ import { connect } from 'react-redux';
 import { Action } from 'redux';
 import { updateDonationRequest,deleteDonationRequest } from '../store/actions/requests-actions';
 import { RootState } from '../store/reducers/root-reducer';
+import { updateUser } from '../store/actions/users-actions';
+import { User } from '../models/user';
 
 interface Props{
     requests: Donation[]
     updateDonationRequest: Function
     deleteDonationRequest: Function
+    updateUser: Function
+    users: User[]
 }
 
 interface State{
@@ -19,10 +23,12 @@ interface State{
 
 class ListOfRequests extends React.Component<Props,State> {
     
-    willDonate = (request:Donation) => {
+    willDonate = (request:Donation,user: User) => {
         if(request.numOfPeople>0){
             request.numOfPeople -= 1;
             this.props.updateDonationRequest(request);
+            user.donations+=1;
+            this.props.updateUser(user);
         }
         else
         {
@@ -32,7 +38,7 @@ class ListOfRequests extends React.Component<Props,State> {
     }
 
     render(){
-        
+        const {users} = this.props;
         return(
             <div className="container">
                 {
@@ -54,7 +60,7 @@ class ListOfRequests extends React.Component<Props,State> {
                                     </div>
                                     <hr></hr>
                                     <div style={{textAlign:'center'}}>
-                                    <button className="btn btn-danger mb-2 ml-2" title="Only push button if you are sure thay you ll donate" style={{width:"150px", alignSelf:'center'}} onClick={()=>this.willDonate(request)}>I Will Donate</button>
+                                    <button className="btn btn-danger mb-2 ml-2" title="Only push button if you are sure thay you ll donate" style={{width:"150px", alignSelf:'center'}} onClick={()=>this.willDonate(request,users[0])}>I Will Donate</button>
                                     </div>
                             </div>
                             }
@@ -72,13 +78,15 @@ class ListOfRequests extends React.Component<Props,State> {
 function mapDispatchToProps(dispatch:Dispatch<Action>){
     return{
         updateDonationRequest:(request:Donation)=>dispatch(updateDonationRequest(request)),
-        deleteDonationRequest:(requestId: number)=>dispatch(deleteDonationRequest(requestId))
+        deleteDonationRequest:(requestId: number)=>dispatch(deleteDonationRequest(requestId)),
+        updateUser:(user: User)=> dispatch(updateUser(user))
     }
 }
 
 function mapStateToProps(state: RootState){
     return{
-        requests: state.requests
+        requests: state.requests,
+        users: state.users
     }
 }
 

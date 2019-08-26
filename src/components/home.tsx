@@ -15,6 +15,11 @@ class Home extends React.Component {
                 <NavLink tag={Link} to="/add-request" style={{textDecoration:"none", color:"white"}}>REQUEST</NavLink>
                 </Button>
                 </div>
+                <div style={{textAlign:"center"}} className="pt-5 my-5">
+                <Button style={{background:"grey", width:"250px", height:"50px", marginTop:'21em'}}>
+                <NavLink tag={Link} to="/add-novelty" style={{textDecoration:"none", color:"white"}}>Have some news?</NavLink>
+                </Button>
+                </div>
             </div>
         )
     }

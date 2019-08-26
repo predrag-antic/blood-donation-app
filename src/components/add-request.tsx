@@ -31,7 +31,7 @@ class AddRequest extends React.Component<Props,State> {
         this.state = {
             location: '',
             bloodGroup: [],
-            urgency: '',
+            urgency: 'Low',
             numOfPeople: 0,
             info: '',
             errors: false
@@ -125,7 +125,7 @@ class AddRequest extends React.Component<Props,State> {
                     </div>
                     <div className="form-group">
                         <label >Urgency: </label>
-                        <select className="form-control" defaultValue="Low" name="urgency" value={urgency} onChange={this.handleUrgencyChange}>
+                        <select className="form-control" name="urgency" value={urgency} onChange={this.handleUrgencyChange}>
                             <option value="Low">Low</option>
                             <option value="Medium">Medium</option>
                             <option value="High">High</option>
@@ -140,7 +140,7 @@ class AddRequest extends React.Component<Props,State> {
                         <label>More information:</label>
                         <textarea className="form-control" name="info" value={info} onChange={this.handleInfoChange}></textarea>
                     </div>
-                    <div className="text-center" >
+                    <div className="text-center mb-5" >
                         <button type="submit" value="Submit" className="btn btn-success mt-3" style={{width:"170px",height:"60px"}}>Submit</button>
                         <button className="btn btn-danger mt-3 ml-4" style={{width:"170px",height:"60px"}} onClick={this.goback}>Cancel</button>
                     </div>

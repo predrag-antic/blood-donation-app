@@ -16,6 +16,8 @@ import AddRequest from './components/add-request';
 import { requestNews } from './store/actions/news-actions';
 import Novelty from './components/novelty';
 import {composeWithDevTools} from 'redux-devtools-extension';
+import addNovelty from './components/add-novelty';
+import { requestUser } from './store/actions/users-actions';
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -32,6 +34,7 @@ class App extends React.Component {
     
     store.dispatch(requestDonationRequests());
     store.dispatch(requestNews());
+    store.dispatch(requestUser());
 
     return (
       <Provider store={store}>
@@ -46,6 +49,7 @@ class App extends React.Component {
               <Route path='/profile' component={Profile}/>
               <Route path='/blog' component={Blog}/>
               <Route path='/novelty/:id' component={Novelty}/>
+              <Route path='/add-novelty' component={addNovelty}/>
             </Switch>
           </BrowserRouter>
         </div>

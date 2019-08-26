@@ -4,6 +4,8 @@ import { REQUEST_DONATION_REQUESTS, ADD_DONATION_REQUEST, UPDATE_DONATION_REQUES
 import { fetchDonationRequests, postDonationRequest, updateDonationRequest, deleteDonationRequest} from "./requests-saga";
 import { ADD_NEWS, REQUEST_NEWS } from '../actions/news-actions';
 import { fetchNews, postNovelty } from './news-saga';
+import { REQUEST_USER, UPDATE_USER } from '../actions/users-actions';
+import { fetchUsers, updateUserSaga } from './users-saga';
 
 export function* rootSaga() {
     yield all([
@@ -12,6 +14,8 @@ export function* rootSaga() {
       takeEvery(ADD_NEWS,postNovelty),
       takeEvery(REQUEST_NEWS,fetchNews),
       takeEvery(UPDATE_DONATION_REQUEST, updateDonationRequest),
-      takeEvery(DELETE_DONATION_REQUEST, deleteDonationRequest)
+      takeEvery(DELETE_DONATION_REQUEST, deleteDonationRequest),
+      takeEvery(REQUEST_USER, fetchUsers),
+      takeEvery(UPDATE_USER, updateUserSaga)
     ]);
   }

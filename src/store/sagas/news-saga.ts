@@ -1,6 +1,6 @@
 import { getNewsService, addNoveltyService } from '../../services/news-service';
-import { put, all, takeEvery, call } from 'redux-saga/effects';
-import { IAddNews, getNews, addNews } from '../actions/news-actions';
+import { put, call } from 'redux-saga/effects';
+import { IAddNews, getNews, addNewsSuccess } from '../actions/news-actions';
 
 export function* fetchNews(){
   const news = yield call(getNewsService);
@@ -9,5 +9,5 @@ export function* fetchNews(){
 
 export function* postNovelty(novelty:IAddNews){
   const news = yield addNoveltyService(novelty.novelty);
-  yield put(addNews(news));
+  yield put(addNewsSuccess(news));
 }

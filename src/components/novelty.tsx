@@ -2,8 +2,6 @@ import React from 'react';
 import { News } from '../models/news';
 import { RootState } from '../store/reducers/root-reducer';
 import { connect } from 'react-redux';
-import { match } from 'react-router';
-import { any } from 'prop-types';
 
 interface Props{
     novelty: News | any
@@ -16,8 +14,7 @@ class Novelty extends React.Component<Props,State> {
     
 
     render(){
-        const {novelty} = this.props
-        {novelty!==undefined?console.log(novelty):console.log('kurac')}
+        const {novelty} = this.props;
         return(
             <div className="container">
                 {novelty!==undefined?
